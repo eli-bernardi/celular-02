@@ -1,0 +1,97 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header {
+width: 390px;
+height: 45px;
+background-color: rgb(0, 153, 255);
+flex-direction: row ;
+justify-content: center  ; 
+align-items: center;
+gap: 24px;
+font-size: 24px;
+font-style: normal;
+flood-color: black;
+}
+header nav a{
+    font-size: 24px;
+    color: #FF1F0B;
+    text-decoration: none;
+    gap: 8px;
+   
+ }
+ a:hover{
+        color: rgb(153, 153, 153);
+        background-color: rgb(138, 248, 116) ;
+        border-radius: 8px;
+    }
+body{
+    width: 390px;
+    height: 180px;
+    background-color: rgb(202, 202, 202);
+    }
+main .home{
+width: 390px;
+height: 604px;
+background-color: rgb(0, 153, 255);
+
+}
+main .notebook{
+    width: 390px;
+    height: 604px;
+    background-color: rgb(0, 153, 255);
+}
+main p{
+    font-size: 24px; 
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 48px;
+    margin-left: 48px;
+
+}
+main button{
+    margin-top: 22px;
+    margin-left: 22px;
+    font-size: 20px;
+    color: rgb(0, 153, 255) ;
+    font-family:sans-serif,tahoma; 
+    border-color: cornsilk;
+
+
+}
+main .wireframe img{
+    width: 180px;
+    height: 500px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+main .sks-removebg-preview img{  
+    height: 180px;
+    width: 180px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+footer{
+width: 390px;
+height: 120px;
+background-color: rgb(202, 202, 202)    ;
+display: flex;
+flex-direction: row ;
+justify-content: center  ; 
+align-items: center;
+gap: 16px;
+font-family: sans-serif,tahoma; 
+}
+footer p{
+    width: 390px;
+    height: 45px;
+    font-size: 20px;
+    background-color: rgb(0, 153, 255);
+    color: black;
+    align-items: center;
+}
