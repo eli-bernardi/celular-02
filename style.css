@@ -13,7 +13,7 @@ align-items: center;
 gap: 24px;
 font-size: 24px;
 font-style: normal;
-flood-color: black;
+flood-color: rgb(80, 80, 80);
 }
 header nav a{
     font-size: 24px;
@@ -62,7 +62,7 @@ main button{
 
 
 }
-main .wireframe img{
+#wireframe{
     width: 180px;
     height: 500px;
     align-items: center;
@@ -70,7 +70,7 @@ main .wireframe img{
     margin-left: 30px;
 
 }
-main .sks-removebg-preview img{  
+#sks-removebg-preview{  
     height: 180px;
     width: 180px;
     margin-left: 180px;
@@ -94,4 +94,16 @@ footer p{
     background-color: rgb(0, 153, 255);
     color: black;
     align-items: center;
+}
+#insta{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    flood-color: aqua;
+}
+#whatsapp{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    flood-color: aqua;
 }
